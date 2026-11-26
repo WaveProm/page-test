@@ -1,0 +1,11 @@
+/node_modules
+/.next/
+/out/
+.DS_Store
+npm-debug.log*
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+/.claude/worktrees/
+/.claude/serveur.json

@@ -12,3 +12,4 @@ Problem and decision are one line each. An error code, a trace id or a ticket nu
 | 2026-11-26 | Chaque consultant change la même page, et la victoire du précédent reste sur `main` | `src/app/mission.ts` porte le statut de la mission, que Claude remet à `"open"` dans son worktree avant de montrer la page | inbox 002 |
 | 2026-11-26 | Dans le fichier de la page, TypeScript réduit une constante annotée à sa valeur et refuse de la comparer à l'autre | Le statut vit dans son propre module, et la page l'importe avec son type entier | TS2367 |
 | 2026-11-26 | Le domaine que Vercel donne au projet, page-test-sooty.vercel.app, ne dit rien au consultant | Le lien de production est page-test-waveprom.vercel.app, ajouté au projet | - |
+| 2026-11-26 | Le mail de l'agence tutoie le consultant, et la page le vouvoyait | La mission, la victoire et le bouton le tutoient, comme les phrases de Claude | inbox 005 |

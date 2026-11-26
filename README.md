@@ -9,7 +9,8 @@ En ligne : https://page-test-waveprom.vercel.app
 ## Ce que montre la page
 
 - Le titre « Bienvenue chez WaveProm ».
-- La mission, « demandez à Claude de changer la couleur de ce bouton », ou la victoire, « Mission réussie », selon `missionStatus` dans `src/app/mission.ts`.
+- La mission, « demande à Claude de changer la couleur de ce bouton », ou la victoire, « Mission réussie », selon `missionStatus` dans `src/app/mission.ts`.
+- La page tutoie le consultant, comme Claude et comme le mail de l'agence.
 - Le bouton, dont la couleur est une classe Tailwind dans `src/app/page.tsx`.
 
 ## Le déploiement

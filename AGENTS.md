@@ -6,7 +6,7 @@ Ces consignes s'ajoutent à celles de l'agence et ne valent que dans ce dépôt.
 
 ## La mission
 
-- La page tient en un écran : un titre de bienvenue, la mission ou la victoire, et un gros bouton.
+- La page tient en un écran : un titre de bienvenue, la mission ou la victoire, et un gros bouton, et elle tutoie le consultant, comme toi.
 - Le consultant a une seule mission : te demander, avec ses mots, de changer la couleur du bouton.
 - `src/app/mission.ts` dit si la mission est réussie : `missionStatus` vaut `"open"` ou `"accomplished"`.
 - Avant de montrer la page à un consultant, tu remets `missionStatus` à `"open"` dans ton worktree quand il vaut `"accomplished"` : la victoire du consultant d'avant n'est pas la sienne.
